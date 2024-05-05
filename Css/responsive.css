@@ -1,0 +1,77 @@
+@media only screen and (max-width: 740px ) {
+    .container {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form-input {
+        border-radius: 0px 0px 20px 20px;
+        min-width: 100px;
+        max-width: 400px;
+        min-height: 100px;
+        max-height: 380px;
+        font-size: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .php-main {
+        border-radius: 20px 20px 0px 0px;
+        min-width: 370px;
+        max-width: 400px;
+        min-height: 100px;
+        max-height: 380px;
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+
+    input[type=submit], input[type=text], input[type=number] {
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .hasil2 {
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .form-input {
+        min-width: 100px;
+        max-width: 350px;
+        min-height: 100px;
+        max-height: 380px;
+    }
+
+    .php-main {
+        min-width: 100px;
+        max-width: 350px;
+        min-height: 100px;
+        max-height: 380px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .form-input { 
+        min-width: 100px;
+        max-width: 400px;
+        min-height: 350px;
+        max-height: 400px;
+        font-size: 20px;
+    }
+
+    .php-main {
+        min-width: 100px;
+        max-width: 400px;
+        min-height: 400px;
+        max-height: 400px;
+        font-size: 20px;
+
+       
+}
+}
